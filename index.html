@@ -3,25 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal webiste</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   
-  <title>My Website</title>
 </head>
 <body>
-  <!-- Header -->
-  <div id="header">
+    
+
+   <!-- Header -->
+   <div id="header">
     <div class="header container">
       <div class="nav-bar">
         <div class="brand">
-          <!-- <a href="#hero"><img src="./assets/img/logo.png" style="width:90px; height:60px;"></a> -->
-        </div>
+         </div>
         <div class="nav-list">
           <div class="hamburger"><div class="bar"></div></div>
           <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#home" data-after="Home">Home</a></li>
             <li><a href="#about" data-after="About">About</a></li>
 
-             <li><a href="#projects" data-after="Projects">Projects</a></li>
+             <li><a href="#works" data-after="Projects">Projects</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
           </ul>
         </div>
@@ -31,28 +37,21 @@
   <!-- End Header -->
 
 
-  <!-- Hero Section  -->
   <!-- Home -->
   <section id="home">
     <div class="inner-width">
       <div class="content">
         <h1>Hi I'm </h1>
-        <div class="sm">
-          <a href="#" class="fab fa-facebook-f"></a>
-          <a href="#" class="fab fa-twitter"></a>
-          <a href="#" class="fab fa-instagram"></a>
-          <a href="#" class="fab fa-linkedin-in"></a>
-          <a href="#" class="fab fa-youtube"></a>
-        </div>
+     
         <div class="buttons">
-           <a href="#"  class="cta">Portfolio</a>
+           <a href="#works"  class="cta">Portfolio</a>
         </div>
       </div>
     </div>
   </section>
-  <!-- End Hero Section  -->
-   
 
+        
+  
   <section id="about">
     <div class="inner-width">
       <h1 class="section-title">About</h1>
@@ -69,6 +68,9 @@
 
             I enjoy building everything from small business sites to interactive apps. If you are an employer seeking a web presence you can get in touch with me here
         </p>
+
+        <a class="cta" href="/assets/CV.pdf">Download CV</a>
+
         </div>
       </div>
 
@@ -76,16 +78,21 @@
       </div>
     </div>
   </section>
-<div class="move">
+
+
+   
+<div class="move pt-5">
   <section class="serve">
     <div class="pricing__item">
-         <h3>Front-end Developer</h3>
+         <h3>Front-end Development</h3>
 
          <h4>Languages I speak:<br>
          HTML, CSS, Javascript</h4>
          
 
         <ul>
+            <li>Dev Tools:</li>
+
             <li>Vue.js</li>
             <li>React</li>
             <li>Bootstrap</li>
@@ -97,65 +104,63 @@
      </div>
 </section>
 </div>
-
+        
   
- <!-- Works -->
- <section id="works" class="dark">
+
+   
+  <!-- Works -->
+  <section id="works" class="dark">
     <div class="inner-width">
-      <h1 class="section-title">Portfolio</h1>
+      <h1 class="section-title">Works</h1>
       <div class="works">
-        <a href="/assets/img/bakery.jpg" class="work">
-          <img src="/assets/img/bakery.jpg" alt="">
+        <a href="https://cushion-cloud.netlify.app/" class="work">
+          <img src="/assets/img/restaurant.jpg" alt="">
           <div class="info">
-            <h3>Work Title</h3>
-            <div class="cat"> <button type="button" class="btn btn-primary">Primary</button></div>
+            <h3>Restaurant website</h3>
+            <button class="ctas">View Project</button>          </div>
+        </a>
+
+        <a href="https://allrecipesodimaa.netlify.app" class="work">
+          <img src="/assets/img/scarlett.jpg" alt="">
+          <div class="info">
+            <h3>Recipe app</h3>
+            <button class="ctas">View Project</button>          </div>
+        </a>
+
+        <a href="https://cushion-cloud.netlify.app/" class="work">
+          <img src="/assets/img/consult.jpg" alt="">
+          <div class="info">
+            <h3>Landing page Consulting company</h3>
+            <button class="ctas">View Project</button>
           </div>
         </a>
 
-        <a href="/assets/img/bakery.jpg" class="work">
-          <img src="/assets/img/bakery.jpg" alt="">
+        <a href="https://p3solutions.netlify.app/" class="work">
+          <img src="/assets/img/noir.jpg" alt="">
           <div class="info">
-            <h3>Work Title</h3>
-            <div class="cat">Music, Headset</div>
-          </div>
+            <h3>Digital agency</h3>
+            <button class="ctas">View Project</button>          </div>
         </a>
 
-        <a href="/assets/img/bakery.jpg" class="work">
-          <img src="/assets/img/bakery.jpg" alt="">
+        <a href="https://odi-react-job.netlify.app" class="work">
+          <img src="/assets/img/job.jpg" alt="">
           <div class="info">
-            <h3>Work Title</h3>
-            <div class="cat">Music, Headset</div>
-          </div>
+            <h3>Job Listing app</h3>
+            <button class="ctas">View Project</button>          </div>
         </a>
 
-        <a href="/assets/img/bakery.jpg" class="work">
+        <a href="https://scarlett-confectionary.netlify.app/" class="work">
           <img src="/assets/img/bakery.jpg" alt="">
           <div class="info">
-            <h3>Work Title</h3>
-            <div class="cat">Music, Headset</div>
-          </div>
-        </a>
-
-        <a href="/assets/img/bakery.jpg" class="work">
-          <img src="/assets/img/bakery.jpg" alt="">
-          <div class="info">
-            <h3>Work Title</h3>
-            <div class="cat">Music, Headset</div>
-          </div>
-        </a>
-
-        <a href="/assets/img/bakery.jpg" class="work">
-          <img src="/assets/img/bakery.jpg" alt="">
-          <div class="info">
-            <h3>Work Title</h3>
-            <div class="cat">Music, Headset</div>
-          </div>
+            <h3>Landing Page of Bakery</h3>
+            <button class="ctas">View Project</button>
+           </div>
         </a>
       </div>
     </div>
   </section>
 
-  
+
   <!-- Contact Section -->
   <section id="contact">
     <div class="contact container">
@@ -165,7 +170,7 @@
           <div class="icon"><img src="https://img.icons8.com/doodle/96/000000/phone--v1.png"/></div>
           <div class="contact-info">
             <h1>Phone</h1>
-            <h2>+234 815 9442</h2>
+            <h2>+2348159319442</h2>
            </div>
         </div>
         <div class="contact-item">
@@ -176,7 +181,7 @@
            </div>
         </div>
         <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/doodle/96/000000/phone--v1.png"/></div>
+          <div class="icon"> <img src="https://img.icons8.com/doodle/96/000000/address.png"/></div>
           <div class="contact-info">
             <h1>Address</h1>
             <h2>Lagos, Nigeria</h2>
@@ -187,14 +192,21 @@
   </section>
   <!-- End Contact Section -->
 
+
+   
   <!-- Footer -->
   <section id="footer">
     <div class="footer container">
       <div class="brand"><h1><span>O</span>DIMAA <span>A</span>LLEN</h1></div>
-      
+    
      </div>
   </section>
   <!-- End Footer -->
-  <script src="./app.js"></script>
+   
+   
+  <!-- Go Top BTN -->
+  <button class="goTop fas fa-arrow-up"></button>
+  <script src="app.js"></script>
+
 </body>
 </html>
